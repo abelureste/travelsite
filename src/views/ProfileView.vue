@@ -11,7 +11,7 @@ import TripCard from '@/components/TripCard.vue'
 const route = useRoute()
 const router = useRouter()
 
-const userId = route.params.id
+const username = route.params.username
 
 const data = reactive({
   user: {},
@@ -20,14 +20,21 @@ const data = reactive({
 
 onMounted(async () => {
   try {
-    const response = await fetch(`/api/user/${userId}`)
+    const response = await fetch(`/api/user?username=${username}`)
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`)
     }
 
     const result = await response.json()
-    data.user = result
-    console.log(result)
+
+    if (result.length > 0) {
+      data.user = result[0]
+    } else {
+      console.error('User not found')
+      router.push('/not-found')
+    }
+
+    console.log(data.user)
   } catch (error) {
     console.error(error.message)
   }
@@ -41,15 +48,15 @@ onMounted(async () => {
     <div class="grid grid-cols-1 lg:grid-cols-8 lg:gap-4">
       <!-- Left column (sidebar) -->
       <div class="lg:col-span-2 space-y-4">
-        <UserCard :userData="data.user" v-if="data.user.id" />
-        <BadgesCard :userData="data.user" v-if="data.user.id" :limit="6" />
-        <FriendsCard :userData="data.user" v-if="data.user.id" />
+        <UserCard :userData="data.user" v-if="data.user.user_id" />
+        <BadgesCard :userData="data.user" v-if="data.user.user_id" />
+        <FriendsCard :userData="data.user" v-if="data.user.user_id" />
       </div>
 
       <!--Right column (main feed)-->
       <div class="lg:col-span-6 space-y-4 mt-8 lg:mt-0">
-        <UserMapCard :userData="data.user" v-if="data.user.id" />
-        <TripCard :userData="data.user" v-if="data.user.id" />
+        <UserMapCard :userData="data.user" v-if="data.user.user_id" />
+        <TripCard :userData="data.user" v-if="data.user.user_id"></TripCard>
       </div>
     </div>
   </body>

@@ -9,7 +9,8 @@ const props = defineProps({
 </script>
 
 <template>
-  <a
+  <RouterLink
+    :to="{ path: `/trip/${props.trip.tripId}` }"
     class="rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300"
     href="/trip/:id"
   >
@@ -36,5 +37,5 @@ const props = defineProps({
         <span class="text-xs text-gray-600"> Traveled with {{ props.trip.tripBuddy }} </span>
       </div>
     </div>
-  </a>
+  </RouterLink>
 </template>
