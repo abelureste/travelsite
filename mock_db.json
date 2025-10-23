@@ -1,0 +1,429 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Abel Ureste",
+      "username": "aureste",
+      "location": "Bogart, GA",
+      "badges": ["0123", "0431", "0798"],
+      "friends": [
+        { "id": "2", "name": "Mitch Benton" },
+        { "id": "3", "name": "Angela Li" },
+        { "id": "4", "name": "Carlos Gomez" },
+        { "id": "9", "name": "Sofia Rodriguez" }
+      ],
+      "trips": [
+        {
+          "tripName": "North Georgia Mountains",
+          "tripLength": "7",
+          "tripLocation": "Helen, Georgia",
+          "tripBuddy": "Mitch Benton"
+        },
+        {
+          "tripName": "Paris",
+          "tripLength": "5",
+          "tripLocation": "Paris, France"
+        },
+        {
+          "tripName": "London",
+          "tripLength": "7",
+          "tripLocation": "London, United Kingdom",
+          "tripBuddy": "Angela Li"
+        },
+        {
+          "tripName": "Cancun Getaway",
+          "tripLength": "6",
+          "tripLocation": "Playa Del Carmen, Mexico"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mitch Benton",
+      "username": "mbenton",
+      "location": "Athens, GA",
+      "badges": ["0512", "0610"],
+      "friends": [
+        { "id": "1", "name": "Abel Ureste" },
+        { "id": "6", "name": "David Kim" },
+        { "id": "7", "name": "Emily Chen" }
+      ],
+      "trips": [
+        {
+          "tripName": "North Georgia Mountains",
+          "tripLength": "7",
+          "tripLocation": "Helen, Georgia",
+          "tripBuddy": "Abel Ureste"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Angela Li",
+      "username": "angela_li",
+      "location": "San Francisco, CA",
+      "badges": ["0125", "0962", "0279", "0665"],
+      "friends": [
+        { "id": "1", "name": "Abel Ureste" },
+        { "id": "11", "name": "Fatima Al-Jamil" },
+        { "id": "15", "name": "Chloe Dubois" },
+        { "id": "13", "name": "Marco Rossi" },
+        { "id": "8", "name": "Kenji Tanaka" }
+      ],
+      "trips": [
+        {
+          "tripName": "London",
+          "tripLength": "7",
+          "tripLocation": "London, United Kingdom",
+          "tripBuddy": "Abel Ureste"
+        },
+        {
+          "tripName": "Tokyo Discovery",
+          "tripLength": "10",
+          "tripLocation": "Tokyo, Japan"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Carlos Gomez",
+      "username": "cgomez",
+      "location": "Miami, FL",
+      "badges": ["0462", "0798", "0123"],
+      "friends": [
+        { "id": "9", "name": "Sofia Rodriguez" },
+        { "id": "1", "name": "Abel Ureste" },
+        { "id": "13", "name": "Marco Rossi" }
+      ],
+      "trips": [
+        {
+          "tripName": "Beach Getaway",
+          "tripLength": "4",
+          "tripLocation": "Cancun, Mexico",
+          "tripBuddy": "Sofia Rodriguez"
+        },
+        {
+          "tripName": "NYC Weekend",
+          "tripLength": "3",
+          "tripLocation": "New York, NY"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Samantha Wu",
+      "username": "sam_wu",
+      "location": "Seattle, WA",
+      "badges": ["0431"],
+      "friends": [
+        { "id": "7", "name": "Emily Chen" },
+        { "id": "14", "name": "Jackson Lee" }
+      ],
+      "trips": []
+    },
+    {
+      "id": "6",
+      "name": "David Kim",
+      "username": "davidkim",
+      "location": "Austin, TX",
+      "badges": ["0123", "0512", "0125", "0431", "0962"],
+      "friends": [
+        { "id": "8", "name": "Kenji Tanaka" },
+        { "id": "7", "name": "Emily Chen" },
+        { "id": "2", "name": "Mitch Benton" },
+        { "id": "16", "name": "Rohan Gupta" }
+      ],
+      "trips": [
+        {
+          "tripName": "SXSW",
+          "tripLength": "5",
+          "tripLocation": "Austin, TX"
+        },
+        {
+          "tripName": "Berlin Tech Week",
+          "tripLength": "7",
+          "tripLocation": "Berlin, Germany",
+          "tripBuddy": "Kenji Tanaka"
+        },
+        {
+          "tripName": "Hiking the Rockies",
+          "tripLength": "6",
+          "tripLocation": "Denver, CO",
+          "tripBuddy": "Emily Chen"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Emily Chen",
+      "username": "echen",
+      "location": "Denver, CO",
+      "badges": ["0279", "0610"],
+      "friends": [
+        { "id": "6", "name": "David Kim" },
+        { "id": "2", "name": "Mitch Benton" },
+        { "id": "5", "name": "Samantha Wu" }
+      ],
+      "trips": [
+        {
+          "tripName": "Hiking the Rockies",
+          "tripLength": "6",
+          "tripLocation": "Denver, CO",
+          "tripBuddy": "David Kim"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Kenji Tanaka",
+      "username": "ktanaka",
+      "location": "Kyoto, Japan",
+      "badges": ["0798", "0665", "0462"],
+      "friends": [
+        { "id": "6", "name": "David Kim" },
+        { "id": "3", "name": "Angela Li" }
+      ],
+      "trips": [
+        {
+          "tripName": "Berlin Tech Week",
+          "tripLength": "7",
+          "tripLocation": "Berlin, Germany",
+          "tripBuddy": "David Kim"
+        },
+        {
+          "tripName": "Seoul Visit",
+          "tripLength": "5",
+          "tripLocation": "Seoul, South Korea"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Sofia Rodriguez",
+      "username": "sofiarodz",
+      "location": "Madrid, Spain",
+      "badges": ["0125", "0431", "0279", "0665"],
+      "friends": [
+        { "id": "4", "name": "Carlos Gomez" },
+        { "id": "13", "name": "Marco Rossi" },
+        { "id": "1", "name": "Abel Ureste" },
+        { "id": "15", "name": "Chloe Dubois" }
+      ],
+      "trips": [
+        {
+          "tripName": "Beach Getaway",
+          "tripLength": "4",
+          "tripLocation": "Cancun, Mexico",
+          "tripBuddy": "Carlos Gomez"
+        },
+        {
+          "tripName": "Rome Exploration",
+          "tripLength": "8",
+          "tripLocation": "Rome, Italy"
+        },
+        {
+          "tripName": "Lisbon Coast",
+          "tripLength": "5",
+          "tripLocation": "Lisbon, Portugal"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Ben Miller",
+      "username": "benmiller",
+      "location": "Chicago, IL",
+      "badges": [],
+      "friends": [{ "id": "14", "name": "Jackson Lee" }],
+      "trips": []
+    },
+    {
+      "id": "11",
+      "name": "Fatima Al-Jamil",
+      "username": "fatima_aj",
+      "location": "Dubai, UAE",
+      "badges": ["0962", "0610"],
+      "friends": [
+        { "id": "3", "name": "Angela Li" },
+        { "id": "12", "name": "Priya Sharma" },
+        { "id": "15", "name": "Chloe Dubois" }
+      ],
+      "trips": [
+        {
+          "tripName": "Sydney Opera",
+          "tripLength": "9",
+          "tripLocation": "Sydney, Australia",
+          "tripBuddy": "Angela Li"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Priya Sharma",
+      "username": "psharma",
+      "location": "Mumbai, India",
+      "badges": ["0123", "0512"],
+      "friends": [
+        { "id": "16", "name": "Rohan Gupta" },
+        { "id": "11", "name": "Fatima Al-Jamil" }
+      ],
+      "trips": [
+        {
+          "tripName": "Goa Retreat",
+          "tripLength": "5",
+          "tripLocation": "Goa, India",
+          "tripBuddy": "Rohan Gupta"
+        },
+        {
+          "tripName": "Rajasthan Tour",
+          "tripLength": "8",
+          "tripLocation": "Jaipur, India"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Marco Rossi",
+      "username": "marcorossi",
+      "location": "Rome, Italy",
+      "badges": ["0123", "0431", "0962", "0462", "0798", "0665"],
+      "friends": [
+        { "id": "9", "name": "Sofia Rodriguez" },
+        { "id": "15", "name": "Chloe Dubois" },
+        { "id": "3", "name": "Angela Li" },
+        { "id": "4", "name": "Carlos Gomez" }
+      ],
+      "trips": [
+        {
+          "tripName": "Amalfi Coast",
+          "tripLength": "6",
+          "tripLocation": "Positano, Italy",
+          "tripBuddy": "Sofia Rodriguez"
+        },
+        {
+          "tripName": "Tuscan Wine Tour",
+          "tripLength": "4",
+          "tripLocation": "Florence, Italy"
+        },
+        {
+          "tripName": "Greek Isles",
+          "tripLength": "10",
+          "tripLocation": "Santorini, Greece",
+          "tripBuddy": "Chloe Dubois"
+        },
+        {
+          "tripName": "Barcelona Arts",
+          "tripLength": "5",
+          "tripLocation": "Barcelona, Spain"
+        },
+        {
+          "tripName": "Prague History",
+          "tripLength": "3",
+          "tripLocation": "Prague, Czech Republic"
+        },
+        {
+          "tripName": "Vienna Music",
+          "tripLength": "4",
+          "tripLocation": "Vienna, Austria"
+        },
+        {
+          "tripName": "Budapest Baths",
+          "tripLength": "3",
+          "tripLocation": "Budapest, Hungary"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Jackson Lee",
+      "username": "jlee",
+      "location": "Toronto, Canada",
+      "badges": ["0125"],
+      "friends": [
+        { "id": "5", "name": "Samantha Wu" },
+        { "id": "10", "name": "Ben Miller" }
+      ],
+      "trips": []
+    },
+    {
+      "id": "15",
+      "name": "Chloe Dubois",
+      "username": "chloe_d",
+      "location": "Paris, France",
+      "badges": ["0123", "0512", "0125", "0431", "0962", "0279", "0610"],
+      "friends": [
+        { "id": "13", "name": "Marco Rossi" },
+        { "id": "3", "name": "Angela Li" },
+        { "id": "9", "name": "Sofia Rodriguez" },
+        { "id": "11", "name": "Fatima Al-Jamil" }
+      ],
+      "trips": [
+        {
+          "tripName": "Greek Isles",
+          "tripLength": "10",
+          "tripLocation": "Santorini, Greece",
+          "tripBuddy": "Marco Rossi"
+        },
+        {
+          "tripName": "Moroccan Adventure",
+          "tripLength": "8",
+          "tripLocation": "Marrakech, Morocco"
+        },
+        {
+          "tripName": "Egyptian Pyramids",
+          "tripLength": "7",
+          "tripLocation": "Cairo, Egypt"
+        },
+        {
+          "tripName": "South of France",
+          "tripLength": "5",
+          "tripLocation": "Nice, France"
+        },
+        {
+          "tripName": "Swiss Alps",
+          "tripLength": "6",
+          "tripLocation": "Interlaken, Switzerland"
+        },
+        {
+          "tripName": "Stockholm Design",
+          "tripLength": "4",
+          "tripLocation": "Stockholm, Sweden"
+        },
+        {
+          "tripName": "Andalusia Roadtrip",
+          "tripLength": "9",
+          "tripLocation": "Seville, Spain"
+        },
+        {
+          "tripName": "Istanbul Wonders",
+          "tripLength": "5",
+          "tripLocation": "Istanbul, Turkey"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Rohan Gupta",
+      "username": "rohan_g",
+      "location": "New Delhi, India",
+      "badges": ["0462"],
+      "friends": [
+        { "id": "12", "name": "Priya Sharma" },
+        { "id": "6", "name": "David Kim" }
+      ],
+      "trips": [
+        {
+          "tripName": "Goa Retreat",
+          "tripLength": "5",
+          "tripLocation": "Goa, India",
+          "tripBuddy": "Priya Sharma"
+        },
+        {
+          "tripName": "Himalayan Trek",
+          "tripLength": "10",
+          "tripLocation": "Manali, India"
+        }
+      ]
+    }
+  ]
+}
