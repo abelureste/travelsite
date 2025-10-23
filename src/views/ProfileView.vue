@@ -43,13 +43,13 @@ onMounted(async () => {
       <div class="lg:col-span-2 space-y-4">
         <UserCard :userData="data.user" v-if="data.user.id" />
         <BadgesCard :userData="data.user" v-if="data.user.id" :limit="6" />
-        <FriendsCard :userData="data.user" v-if="data.user.id" :limit="8" />
+        <FriendsCard :userData="data.user" v-if="data.user.id" />
       </div>
 
       <!--Right column (main feed)-->
       <div class="lg:col-span-6 space-y-4 mt-8 lg:mt-0">
         <UserMapCard :userData="data.user" v-if="data.user.id" />
-        <TripCard :userData="data.user" v-if="data.user.id" :limit="6" />
+        <TripCard :userData="data.user" v-if="data.user.id" />
       </div>
     </div>
   </body>

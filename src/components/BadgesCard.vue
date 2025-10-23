@@ -1,11 +1,16 @@
 <!-- Badges Card -->
 <script setup>
-import { defineProps } from 'vue'
+import { defineProps, ref } from 'vue'
 
 const props = defineProps({
   userData: Object,
-  limit: Number,
 })
+
+const limit = ref(6)
+
+const viewMore = () => {
+  limit.value += 6
+}
 </script>
 
 <template>
@@ -34,12 +39,13 @@ const props = defineProps({
         </svg>
       </div>
     </div>
-    <a
-      v-if="props.userData.badges.length > limit"
-      href="#"
-      class="block text-center m-auto text-sm border border-gray-100 w-fit py-2 px-4 rounded-3xl mt-6 transition-shadow hover:shadow-md duration-300"
-    >
-      View All
-    </a>
+    <div v-if="props.userData.badges.length > limit">
+      <button
+        @click="viewMore"
+        class="block text-center m-auto text-sm border border-gray-100 w-fit py-2 px-4 rounded-3xl mt-6 transition-shadow hover:shadow-md hover:cursor-pointer duration-300"
+      >
+        View More
+      </button>
+    </div>
   </div>
 </template>

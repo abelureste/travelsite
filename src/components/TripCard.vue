@@ -6,8 +6,13 @@ import { defineProps, ref } from 'vue'
 
 const props = defineProps({
   userData: Object,
-  limit: Number,
 })
+
+const limit = ref(6)
+
+const viewMore = () => {
+  limit.value += 6
+}
 </script>
 
 <template>
@@ -28,12 +33,13 @@ const props = defineProps({
       />
     </div>
     <div v-else class="text-center p-20">No Trips Added</div>
-    <a
-      v-if="props.userData.trips.length > limit"
-      href="#"
-      class="block text-center m-auto text-sm border border-gray-100 w-fit py-2 px-4 rounded-3xl mt-6 transition-shadow hover:shadow-md duration-300"
-    >
-      View All
-    </a>
+    <div v-if="props.userData.trips.length > limit">
+      <button
+        @click="viewMore"
+        class="block text-center m-auto text-sm border border-gray-100 w-fit py-2 px-4 rounded-3xl mt-6 transition-shadow hover:shadow-md hover:cursor-pointer duration-300"
+      >
+        View More
+      </button>
+    </div>
   </div>
 </template>
