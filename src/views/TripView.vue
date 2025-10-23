@@ -3,34 +3,45 @@ import { useRoute, RouterLink, useRouter } from 'vue-router'
 import { onMounted, reactive } from 'vue'
 
 import UserMapCard from '@/components/UserMapCard.vue'
-import TripCard from '@/components/TripCard.vue'
+// 1. Import your new component
+import TripDetailsCard from '@/components/TripDetailsCard.vue'
 
 const route = useRoute()
 const router = useRouter()
 
 const tripId = route.params.tripId
 
-console.log(tripId)
-
 const data = reactive({
-  user: {},
+  trip: null,
+  owner: null,
   isLoading: true,
 })
 
 onMounted(async () => {
   try {
-    const response = await fetch(`/api/trips?tripId=${tripId}`)
+    const response = await fetch(`/api/trips`)
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`)
     }
 
-    const result = await response.json()
+    const allUserTrips = await response.json()
 
-    console.log(result)
-    console.log('Fetch successful')
+    let foundTrip = null
+    let tripOwner = null
 
-    if (result.length > 0) {
-      data.user = result[0]
+    for (const user of allUserTrips) {
+      if (user.trips && Array.isArray(user.trips)) {
+        foundTrip = user.trips.find((trip) => trip.tripId === tripId)
+        if (foundTrip) {
+          tripOwner = user
+          break
+        }
+      }
+    }
+
+    if (foundTrip) {
+      data.trip = foundTrip
+      data.owner = tripOwner
     } else {
       console.error('Trip not found')
       router.push('/not-found')
@@ -42,9 +53,13 @@ onMounted(async () => {
 </script>
 
 <template>
-  <!-- Main content area -->
   <body class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
-    <UserMapCard></UserMapCard>
-    <TripCard :userData="data.user" v-if="data.user.user_id"></TripCard>
+    <div class="space-y-4">
+      <TripDetailsCard
+        v-if="data.trip && data.owner"
+        :trip="data.trip"
+        :owner="data.owner"
+      ></TripDetailsCard>
+    </div>
   </body>
 </template>
