@@ -19,7 +19,7 @@ const viewMore = () => {
     <div class="flex flex-wrap gap-3 justify-center sm:justify-start lg:justify-center">
       <img
         v-for="friends in props.userData.friends.slice(0, limit || props.userData.friends.length)"
-        :key="friends.name"
+        :key="friends.user_id"
         class="h-12 w-12 rounded-full"
         src="https://placehold.co/100x100/E0E7FF/3730A3?text=F"
         alt="Friend"

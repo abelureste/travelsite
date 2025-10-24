@@ -14,14 +14,14 @@ const props = defineProps({
       <!-- Background image -->
       <img
         class="w-full h-50 object-cover"
-        src="https://placehold.co/600x200/6366f1/white?text=Background"
+        :src="props.userData.profileBackground"
         alt="Cityscape background"
         onerror="this.src='https://placehold.co/600x200/cccccc/333333?text=Image+Error'"
       />
       <!-- Profile picture -->
       <img
         class="absolute top-20 left-1/2 -translate-x-1/2 h-48 w-48 rounded-full border-6 border-white"
-        src="https://placehold.co/150x150/E0E7FF/3730A3?text=User"
+        :src="props.userData.profilePicture"
         alt="Abel Ureste"
         onerror="this.src='https://placehold.co/150x150/cccccc/333333?text=User'"
       />

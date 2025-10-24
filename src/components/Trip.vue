@@ -10,13 +10,13 @@ const props = defineProps({
 
 <template>
   <RouterLink
-    :to="{ path: `/trip/${props.trip.tripId}` }"
+    :to="{ path: `/trip/${props.trip.id}` }"
     class="rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300"
     href="/trip/:id"
   >
     <img
       class="w-full object-cover rounded-lg"
-      src="https://placehold.co/400x300/A3E635/333333?text=Trip+Image"
+      :src="props.trip.tripImage"
       alt="Trip Image"
       onerror="this.src='https://placehold.co/400x300/cccccc/333333?text=Image+Error'"
     />
@@ -30,7 +30,7 @@ const props = defineProps({
       <div v-if="props.trip.tripBuddy" class="flex items-center mt-3">
         <img
           class="h-6 w-6 rounded-full mr-2"
-          src="https://placehold.co/50x50/FBCFE8/831843?text=A"
+          src="https://placehold.co/50x50/FBCFE8/831843?text=F"
           alt="Angela Li"
           onerror="this.src='https://placehold.co/50x50/cccccc/333333?text=User'"
         />

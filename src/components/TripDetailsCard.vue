@@ -5,15 +5,16 @@ import { RouterLink } from 'vue-router'
 // This component expects the specific trip object and its owner
 const props = defineProps({
   trip: Object,
-  owner: Object,
+  user: Object,
 })
+
 </script>
 
 <template>
   <div class="bg-white rounded-lg shadow-md p-4 sm:p-6 border border-gray-100">
     <img
       class="w-full h-140 object-cover rounded-lg"
-      src="https://placehold.co/800x400/A3E635/333333?text=Trip+Image"
+      :src="props.trip.tripImage"
       alt="Trip Image"
       onerror="this.src='https://placehold.co/800x400/cccccc/333333?text=Image+Error'"
     />
@@ -26,11 +27,11 @@ const props = defineProps({
         <div class="flex items-center">
           <img
             class="w-11 h-11 rounded-full object-cover"
-            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop"
+            :src="props.user.profilePicture"
             alt="Profile picture of Abel Ureste"
           />
           <div class="ml-3">
-            <p class="font-semibold text-gray-800">{{ props.owner.username }}</p>
+            <p class="font-semibold text-gray-800">{{ props.user.name }}</p>
             <p class="text-sm text-gray-500">Updated July 11th, 2023</p>
           </div>
         </div>
