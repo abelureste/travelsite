@@ -25,11 +25,13 @@ const props = defineProps({
 
       <div class="flex justify-between items-center mt-5">
         <div class="flex items-center">
-          <img
-            class="w-11 h-11 rounded-full object-cover"
-            :src="props.user.profilePicture"
-            alt="Profile picture of Abel Ureste"
-          />
+          <RouterLink :to="`/${props.user.username}`" class="rounded-4xl">
+            <img
+              class="w-11 h-11 rounded-full object-cover"
+              :src="props.user.profilePicture"
+              alt="ProfilePic"
+            />
+          </RouterLink>
           <div class="ml-3">
             <p class="font-semibold text-gray-800">{{ props.user.name }}</p>
             <p class="text-sm text-gray-500">Updated July 11th, 2023</p>

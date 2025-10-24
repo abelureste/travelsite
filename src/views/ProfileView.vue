@@ -12,13 +12,10 @@ import TripCard from '@/components/TripCard.vue'
 const route = useRoute()
 const router = useRouter()
 
-const username = route.params.username
+const username = computed(() => route.params.username)
+const userUrl = computed(() => `/api/user?username=${username.value}`)
 
-const {
-  data: userData,
-  error: userError,
-  isLoading: userIsLoading,
-} = useFetch(`/api/user?username=${username}`)
+const { data: userData, error: userError, isLoading: userIsLoading } = useFetch(userUrl)
 
 const tripsUrl = computed(() => {
   if (userData.value && userData.value.length > 0) {

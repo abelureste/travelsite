@@ -9,10 +9,10 @@
       "profileBackground": "https://picsum.photos/seed/1_bg/600/200",
       "badges": ["0123", "0431", "0798"],
       "friends": [
-        { "user_id": "2", "name": "Mitch Benton" },
-        { "user_id": "3", "name": "Angela Li" },
-        { "user_id": "4", "name": "Carlos Gomez" },
-        { "user_id": "9", "name": "Sofia Rodriguez" }
+        { "user_id": "2", "name": "Mitch Benton", "username": "mbenton" },
+        { "user_id": "3", "name": "Angela Li", "username": "angela_li" },
+        { "user_id": "4", "name": "Carlos Gomez", "username": "cgomez" },
+        { "user_id": "9", "name": "Sofia Rodriguez", "username": "sofiarodz" }
       ]
     },
     {
@@ -24,9 +24,9 @@
       "profileBackground": "https://picsum.photos/seed/2_bg/600/200",
       "badges": ["0512", "0610"],
       "friends": [
-        { "user_id": "1", "name": "Abel Ureste" },
-        { "user_id": "6", "name": "David Kim" },
-        { "user_id": "7", "name": "Emily Chen" }
+        { "user_id": "1", "name": "Abel Ureste", "username": "aureste" },
+        { "user_id": "6", "name": "David Kim", "username": "davidkim" },
+        { "user_id": "7", "name": "Emily Chen", "username": "echen" }
       ]
     },
     {
@@ -38,11 +38,11 @@
       "profileBackground": "https://picsum.photos/seed/3_bg/600/200",
       "badges": ["0125", "0962", "0279", "0665"],
       "friends": [
-        { "user_id": "1", "name": "Abel Ureste" },
-        { "user_id": "11", "name": "Fatima Al-Jamil" },
-        { "user_id": "15", "name": "Chloe Dubois" },
-        { "user_id": "13", "name": "Marco Rossi" },
-        { "user_id": "8", "name": "Kenji Tanaka" }
+        { "user_id": "1", "name": "Abel Ureste", "username": "aureste" },
+        { "user_id": "11", "name": "Fatima Al-Jamil", "username": "fatima_aj" },
+        { "user_id": "15", "name": "Chloe Dubois", "username": "chloe_d" },
+        { "user_id": "13", "name": "Marco Rossi", "username": "marcorossi" },
+        { "user_id": "8", "name": "Kenji Tanaka", "username": "ktanaka" }
       ]
     },
     {
@@ -54,9 +54,9 @@
       "profileBackground": "https://picsum.photos/seed/4_bg/600/200",
       "badges": ["0462", "0798", "0123"],
       "friends": [
-        { "user_id": "9", "name": "Sofia Rodriguez" },
-        { "user_id": "1", "name": "Abel Ureste" },
-        { "user_id": "13", "name": "Marco Rossi" }
+        { "user_id": "9", "name": "Sofia Rodriguez", "username": "sofiarodz" },
+        { "user_id": "1", "name": "Abel Ureste", "username": "aureste" },
+        { "user_id": "13", "name": "Marco Rossi", "username": "marcorossi" }
       ]
     },
     {
@@ -68,8 +68,8 @@
       "profileBackground": "https://picsum.photos/seed/5_bg/600/200",
       "badges": ["0431"],
       "friends": [
-        { "user_id": "7", "name": "Emily Chen" },
-        { "user_id": "14", "name": "Jackson Lee" }
+        { "user_id": "7", "name": "Emily Chen", "username": "echen" },
+        { "user_id": "14", "name": "Jackson Lee", "username": "jlee" }
       ]
     },
     {
@@ -81,10 +81,10 @@
       "profileBackground": "https://picsum.photos/seed/6_bg/600/200",
       "badges": ["0123", "0512", "0125", "0431", "0962"],
       "friends": [
-        { "user_id": "8", "name": "Kenji Tanaka" },
-        { "user_id": "7", "name": "Emily Chen" },
-        { "user_id": "2", "name": "Mitch Benton" },
-        { "user_id": "16", "name": "Rohan Gupta" }
+        { "user_id": "8", "name": "Kenji Tanaka", "username": "ktanaka" },
+        { "user_id": "7", "name": "Emily Chen", "username": "echen" },
+        { "user_id": "2", "name": "Mitch Benton", "username": "mbenton" },
+        { "user_id": "16", "name": "Rohan Gupta", "username": "rohan_g" }
       ]
     },
     {
@@ -96,9 +96,9 @@
       "profileBackground": "https://picsum.photos/seed/7_bg/600/200",
       "badges": ["0279", "0610"],
       "friends": [
-        { "user_id": "6", "name": "David Kim" },
-        { "user_id": "2", "name": "Mitch Benton" },
-        { "user_id": "5", "name": "Samantha Wu" }
+        { "user_id": "6", "name": "David Kim", "username": "davidkim" },
+        { "user_id": "2", "name": "Mitch Benton", "username": "mbenton" },
+        { "user_id": "5", "name": "Samantha Wu", "username": "sam_wu" }
       ]
     },
     {
@@ -110,8 +110,8 @@
       "profileBackground": "https://picsum.photos/seed/8_bg/600/200",
       "badges": ["0798", "0665", "0462"],
       "friends": [
-        { "user_id": "6", "name": "David Kim" },
-        { "user_id": "3", "name": "Angela Li" }
+        { "user_id": "6", "name": "David Kim", "username": "davidkim" },
+        { "user_id": "3", "name": "Angela Li", "username": "angela_li" }
       ]
     },
     {
@@ -123,10 +123,10 @@
       "profileBackground": "https://picsum.photos/seed/9_bg/600/200",
       "badges": ["0125", "0431", "0279", "0665"],
       "friends": [
-        { "user_id": "4", "name": "Carlos Gomez" },
-        { "user_id": "13", "name": "Marco Rossi" },
-        { "user_id": "1", "name": "Abel Ureste" },
-        { "user_id": "15", "name": "Chloe Dubois" }
+        { "user_id": "4", "name": "Carlos Gomez", "username": "cgomez" },
+        { "user_id": "13", "name": "Marco Rossi", "username": "marcorossi" },
+        { "user_id": "1", "name": "Abel Ureste", "username": "aureste" },
+        { "user_id": "15", "name": "Chloe Dubois", "username": "chloe_d" }
       ]
     },
     {
@@ -137,7 +137,7 @@
       "profilePicture": "https://picsum.photos/seed/10/200/200",
       "profileBackground": "https://picsum.photos/seed/10_bg/600/200",
       "badges": [],
-      "friends": [{ "user_id": "14", "name": "Jackson Lee" }]
+      "friends": [{ "user_id": "14", "name": "Jackson Lee", "username": "jlee" }]
     },
     {
       "user_id": "11",
@@ -148,9 +148,9 @@
       "profileBackground": "https://picsum.photos/seed/11_bg/600/200",
       "badges": ["0962", "0610"],
       "friends": [
-        { "user_id": "3", "name": "Angela Li" },
-        { "user_id": "12", "name": "Priya Sharma" },
-        { "user_id": "15", "name": "Chloe Dubois" }
+        { "user_id": "3", "name": "Angela Li", "username": "angela_li" },
+        { "user_id": "12", "name": "Priya Sharma", "username": "psharma" },
+        { "user_id": "15", "name": "Chloe Dubois", "username": "chloe_d" }
       ]
     },
     {
@@ -162,8 +162,8 @@
       "profileBackground": "https://picsum.photos/seed/12_bg/600/200",
       "badges": ["0123", "0512"],
       "friends": [
-        { "user_id": "16", "name": "Rohan Gupta" },
-        { "user_id": "11", "name": "Fatima Al-Jamil" }
+        { "user_id": "16", "name": "Rohan Gupta", "username": "rohan_g" },
+        { "user_id": "11", "name": "Fatima Al-Jamil", "username": "fatima_aj" }
       ]
     },
     {
@@ -175,10 +175,10 @@
       "profileBackground": "https://picsum.photos/seed/13_bg/600/200",
       "badges": ["0123", "0431", "0962", "0462", "0798", "0665"],
       "friends": [
-        { "user_id": "9", "name": "Sofia Rodriguez" },
-        { "user_id": "15", "name": "Chloe Dubois" },
-        { "user_id": "3", "name": "Angela Li" },
-        { "user_id": "4", "name": "Carlos Gomez" }
+        { "user_id": "9", "name": "Sofia Rodriguez", "username": "sofiarodz" },
+        { "user_id": "15", "name": "Chloe Dubois", "username": "chloe_d" },
+        { "user_id": "3", "name": "Angela Li", "username": "angela_li" },
+        { "user_id": "4", "name": "Carlos Gomez", "username": "cgomez" }
       ]
     },
     {
@@ -190,8 +190,8 @@
       "profileBackground": "https://picsum.photos/seed/14_bg/600/200",
       "badges": ["0125"],
       "friends": [
-        { "user_id": "5", "name": "Samantha Wu" },
-        { "user_id": "10", "name": "Ben Miller" }
+        { "user_id": "5", "name": "Samantha Wu", "username": "sam_wu" },
+        { "user_id": "10", "name": "Ben Miller", "username": "benmiller" }
       ]
     },
     {
@@ -203,10 +203,10 @@
       "profileBackground": "https://picsum.photos/seed/15_bg/600/200",
       "badges": ["0123", "0512", "0125", "0431", "0962", "0279", "0610"],
       "friends": [
-        { "user_id": "13", "name": "Marco Rossi" },
-        { "user_id": "3", "name": "Angela Li" },
-        { "user_id": "9", "name": "Sofia Rodriguez" },
-        { "user_id": "11", "name": "Fatima Al-Jamil" }
+        { "user_id": "13", "name": "Marco Rossi", "username": "marcorossi" },
+        { "user_id": "3", "name": "Angela Li", "username": "angela_li" },
+        { "user_id": "9", "name": "Sofia Rodriguez", "username": "sofiarodz" },
+        { "user_id": "11", "name": "Fatima Al-Jamil", "username": "fatima_aj" }
       ]
     },
     {
@@ -218,8 +218,8 @@
       "profileBackground": "https://picsum.photos/seed/16_bg/600/200",
       "badges": ["0462"],
       "friends": [
-        { "user_id": "12", "name": "Priya Sharma" },
-        { "user_id": "6", "name": "David Kim" }
+        { "user_id": "12", "name": "Priya Sharma", "username": "psharma" },
+        { "user_id": "6", "name": "David Kim", "username": "davidkim" }
       ]
     }
   ],
@@ -460,7 +460,7 @@
       "tripName": "Budapest Baths",
       "tripLength": "3",
       "tripLocation": "Budapest, Hungary",
-      "tripImage": "httpsM://picsum.photos/seed/hG7fD2sA5qP9wZ1x/1200/900"
+      "tripImage": "httpsm://picsum.photos/seed/hG7fD2sA5qP9wZ1x/1200/900"
     },
     {
       "id": "cV8bN9mK1lJ4hG5f",
