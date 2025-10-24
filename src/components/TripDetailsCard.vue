@@ -30,6 +30,7 @@ const props = defineProps({
               class="w-11 h-11 rounded-full object-cover"
               :src="props.user.profilePicture"
               alt="ProfilePic"
+              :title="`Visit ${props.user.username}'s profile`"
             />
           </RouterLink>
           <div class="ml-3">

@@ -29,6 +29,7 @@ const viewMore = () => {
           :src="`https://picsum.photos/seed/${friends.user_id}/200/200`"
           :alt="friends.name"
           onerror="this.src='https://placehold.co/100x100/cccccc/333333?text=User'"
+          :title="friends.username"
         />
       </RouterLink>
     </div>
