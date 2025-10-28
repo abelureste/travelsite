@@ -227,322 +227,398 @@
     {
       "id": "n7pSgK3jF8qXv2uY",
       "user_id": "1",
-      "tripName": "North Georgia Mountains",
-      "tripLength": "7",
+      "tripTitle": "North Georgia Mountains",
       "tripLocation": "Helen, Georgia",
       "tripBuddy": "Mitch Benton",
-      "tripImage": "https://picsum.photos/seed/n7pSgK3jF8qXv2uY/1200/900"
+      "tripImage": "https://picsum.photos/seed/n7pSgK3jF8qXv2uY/1200/900",
+      "tripStartDate": "2025-11-10",
+      "tripEndDate": "2025-11-17",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "aR5bH9cVfG4wZ6jL",
       "user_id": "1",
-      "tripName": "Paris",
-      "tripLength": "5",
+      "tripTitle": "Paris",
       "tripLocation": "Paris, France",
-      "tripImage": "https://picsum.photos/seed/aR5bH9cVfG4wZ6jL/1200/900"
+      "tripImage": "https://picsum.photos/seed/aR5bH9cVfG4wZ6jL/1200/900",
+      "tripStartDate": "2024-05-20",
+      "tripEndDate": "2024-05-25",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "qX8kY2fJmP6gT3sN",
       "user_id": "1",
-      "tripName": "London",
-      "tripLength": "7",
+      "tripTitle": "London",
       "tripLocation": "London, United Kingdom",
       "tripBuddy": "Angela Li",
-      "tripImage": "https://picsum.photos/seed/qX8kY2fJmP6gT3sN/1200/900"
+      "tripImage": "https://picsum.photos/seed/qX8kY2fJmP6gT3sN/1200/900",
+      "tripStartDate": "2025-09-01",
+      "tripEndDate": "2025-09-08",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "wE9rT1yUoP4iQ7sD",
       "user_id": "1",
-      "tripName": "Cancun Getaway",
-      "tripLength": "6",
+      "tripTitle": "Cancun Getaway",
       "tripLocation": "Playa Del Carmen, Mexico",
-      "tripImage": "https://picsum.photos/seed/wE9rT1yUoP4iQ7sD/1200/900"
+      "tripImage": "https://picsum.photos/seed/wE9rT1yUoP4iQ7sD/1200/900",
+      "tripStartDate": "2026-01-15",
+      "tripEndDate": "2026-01-21",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "zS6dVbK2mJ9fH4gL",
       "user_id": "2",
-      "tripName": "North Georgia Mountains",
-      "tripLength": "7",
+      "tripTitle": "North Georgia Mountains",
       "tripLocation": "Helen, Georgia",
       "tripBuddy": "Abel Ureste",
-      "tripImage": "https://picsum.photos/seed/zS6dVbK2mJ9fH4gL/1200/900"
+      "tripImage": "https://picsum.photos/seed/zS6dVbK2mJ9fH4gL/1200/900",
+      "tripStartDate": "2025-11-10",
+      "tripEndDate": "2025-11-17",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "bV4nJ7hGfD2sA9qP",
       "user_id": "3",
-      "tripName": "London",
-      "tripLength": "7",
+      "tripTitle": "London",
       "tripLocation": "London, United Kingdom",
       "tripBuddy": "Abel Ureste",
-      "tripImage": "https://picsum.photos/seed/bV4nJ7hGfD2sA9qP/1200/900"
+      "tripImage": "https://picsum.photos/seed/bV4nJ7hGfD2sA9qP/1200/900",
+      "tripStartDate": "2025-09-01",
+      "tripEndDate": "2025-09-08",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "mK8lP3oIuY6tR1eW",
       "user_id": "3",
-      "tripName": "Tokyo Discovery",
-      "tripLength": "10",
+      "tripTitle": "Tokyo Discovery",
       "tripLocation": "Tokyo, Japan",
-      "tripImage": "https://picsum.photos/seed/mK8lP3oIuY6tR1eW/1200/900"
+      "tripImage": "https://picsum.photos/seed/mK8lP3oIuY6tR1eW/1200/900",
+      "tripStartDate": "2024-08-05",
+      "tripEndDate": "2024-08-15",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "yU7iO1pA9sD4fG6h",
       "user_id": "4",
-      "tripName": "Beach Getaway",
-      "tripLength": "4",
+      "tripTitle": "Beach Getaway",
       "tripLocation": "Cancun, Mexico",
       "tripBuddy": "Sofia Rodriguez",
-      "tripImage": "https://picsum.photos/seed/yU7iO1pA9sD4fG6h/1200/900"
+      "tripImage": "https://picsum.photos/seed/yU7iO1pA9sD4fG6h/1200/900",
+      "tripStartDate": "2025-03-10",
+      "tripEndDate": "2025-03-14",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "jK5lQ2wE8rT3yU4i",
       "user_id": "4",
-      "tripName": "NYC Weekend",
-      "tripLength": "3",
+      "tripTitle": "NYC Weekend",
       "tripLocation": "New York, NY",
-      "tripImage": "https://picsum.photos/seed/jK5lQ2wE8rT3yU4i/1200/900"
+      "tripImage": "https://picsum.photos/seed/jK5lQ2wE8rT3yU4i/1200/900",
+      "tripStartDate": "2025-07-18",
+      "tripEndDate": "2025-07-21",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "oP6aSdF9gH1jK3lZ",
       "user_id": "6",
-      "tripName": "SXSW",
-      "tripLength": "5",
+      "tripTitle": "SXSW",
       "tripLocation": "Austin, TX",
-      "tripImage": "https://picsum.photos/seed/oP6aSdF9gH1jK3lZ/1200/900"
+      "tripImage": "https://picsum.photos/seed/oP6aSdF9gH1jK3lZ/1200/900",
+      "tripStartDate": "2025-03-12",
+      "tripEndDate": "2025-03-17",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "xVbN5mQwE2rT7yU9",
       "user_id": "6",
-      "tripName": "Berlin Tech Week",
-      "tripLength": "7",
+      "tripTitle": "Berlin Tech Week",
       "tripLocation": "Berlin, Germany",
       "tripBuddy": "Kenji Tanaka",
-      "tripImage": "https://picsum.photos/seed/xVbN5mQwE2rT7yU9/1200/900"
+      "tripImage": "https://picsum.photos/seed/xVbN5mQwE2rT7yU9/1200/900",
+      "tripStartDate": "2024-11-04",
+      "tripEndDate": "2024-11-11",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "iO3pL5kJuH8yG6tF",
       "user_id": "6",
-      "tripName": "Hiking the Rockies",
-      "tripLength": "6",
+      "tripTitle": "Hiking the Rockies",
       "tripLocation": "Denver, CO",
       "tripBuddy": "Emily Chen",
-      "tripImage": "https://picsum.photos/seed/iO3pL5kJuH8yG6tF/1200/900"
+      "tripImage": "https://picsum.photos/seed/iO3pL5kJuH8yG6tF/1200/900",
+      "tripStartDate": "2025-08-20",
+      "tripEndDate": "2025-08-26",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "rD4sA9qP1wZ2xS3e",
       "user_id": "7",
-      "tripName": "Hiking the Rockies",
-      "tripLength": "6",
+      "tripTitle": "Hiking the Rockies",
       "tripLocation": "Denver, CO",
       "tripBuddy": "David Kim",
-      "tripImage": "https://picsum.photos/seed/rD4sA9qP1wZ2xS3e/1200/900"
+      "tripImage": "https://picsum.photos/seed/rD4sA9qP1wZ2xS3e/1200/900",
+      "tripStartDate": "2025-08-20",
+      "tripEndDate": "2025-08-26",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "dC5vB7nN4mK8lP9o",
       "user_id": "8",
-      "tripName": "Berlin Tech Week",
-      "tripLength": "7",
+      "tripTitle": "Berlin Tech Week",
       "tripLocation": "Berlin, Germany",
       "tripBuddy": "David Kim",
-      "tripImage": "https://picsum.photos/seed/dC5vB7nN4mK8lP9o/1200/900"
+      "tripImage": "https://picsum.photos/seed/dC5vB7nN4mK8lP9o/1200/900",
+      "tripStartDate": "2024-11-04",
+      "tripEndDate": "2024-11-11",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "iU1yT6rE9wQ2aSdF",
       "user_id": "8",
-      "tripName": "Seoul Visit",
-      "tripLength": "5",
+      "tripTitle": "Seoul Visit",
       "tripLocation": "Seoul, South Korea",
-      "tripImage": "https://picsum.photos/seed/iU1yT6rE9wQ2aSdF/1200/900"
+      "tripImage": "https://picsum.photos/seed/iU1yT6rE9wQ2aSdF/1200/900",
+      "tripStartDate": "2025-10-02",
+      "tripEndDate": "2025-10-07",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "gH4jK7lZ8xS3eD5f",
       "user_id": "9",
-      "tripName": "Beach Getaway",
-      "tripLength": "4",
+      "tripTitle": "Beach Getaway",
       "tripLocation": "Cancun, Mexico",
       "tripBuddy": "Carlos Gomez",
-      "tripImage": "https://picsum.photos/seed/gH4jK7lZ8xS3eD5f/1200/900"
+      "tripImage": "https://picsum.photos/seed/gH4jK7lZ8xS3eD5f/1200/900",
+      "tripStartDate": "2025-03-10",
+      "tripEndDate": "2025-03-14",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "cV6bN9mK2lJ5hG1f",
       "user_id": "9",
-      "tripName": "Rome Exploration",
-      "tripLength": "8",
+      "tripTitle": "Rome Exploration",
       "tripLocation": "Rome, Italy",
-      "tripImage": "https://picsum.photos/seed/cV6bN9mK2lJ5hG1f/1200/900"
+      "tripImage": "https://picsum.photos/seed/cV6bN9mK2lJ5hG1f/1200/900",
+      "tripStartDate": "2024-06-15",
+      "tripEndDate": "2024-06-23",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "dQ8wA3sZ7xEcR5vT",
       "user_id": "9",
-      "tripName": "Lisbon Coast",
-      "tripLength": "5",
+      "tripTitle": "Lisbon Coast",
       "tripLocation": "Lisbon, Portugal",
-      "tripImage": "https://picsum.photos/seed/dQ8wA3sZ7xEcR5vT/1200/900"
+      "tripImage": "https://picsum.photos/seed/dQ8wA3sZ7xEcR5vT/1200/900",
+      "tripStartDate": "2025-05-01",
+      "tripEndDate": "2025-05-06",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "bY6nU1iM8oP3lK5j",
       "user_id": "11",
-      "tripName": "Sydney Opera",
-      "tripLength": "9",
+      "tripTitle": "Sydney Opera",
       "tripLocation": "Sydney, Australia",
       "tripBuddy": "Angela Li",
-      "tripImage": "https://picsum.photos/seed/bY6nU1iM8oP3lK5j/1200/900"
+      "tripImage": "https://picsum.photos/seed/bY6nU1iM8oP3lK5j/1200/900",
+      "tripStartDate": "2026-02-20",
+      "tripEndDate": "2026-03-01",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG9fD2sA4qP7wZ1x",
       "user_id": "12",
-      "tripName": "Goa Retreat",
-      "tripLength": "5",
+      "tripTitle": "Goa Retreat",
       "tripLocation": "Goa, India",
       "tripBuddy": "Rohan Gupta",
-      "tripImage": "https://picsum.photos/seed/hG9fD2sA4qP7wZ1x/1200/900"
+      "tripImage": "https://picsum.photos/seed/hG9fD2sA4qP7wZ1x/1200/900",
+      "tripStartDate": "2025-01-05",
+      "tripEndDate": "2025-01-10",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "eR5tY6uI8oP1lK2j",
       "user_id": "12",
-      "tripName": "Rajasthan Tour",
-      "tripLength": "8",
+      "tripTitle": "Rajasthan Tour",
       "tripLocation": "Jaipur, India",
-      "tripImage": "https://picsum.photos/seed/eR5tY6uI8oP1lK2j/1200/900"
+      "tripImage": "https://picsum.photos/seed/eR5tY6uI8oP1lK2j/1200/900",
+      "tripStartDate": "2024-12-10",
+      "tripEndDate": "2024-12-18",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG3fD4sA9qP7wZ6x",
       "user_id": "13",
-      "tripName": "Amalfi Coast",
-      "tripLength": "6",
+      "tripTitle": "Amalfi Coast",
       "tripLocation": "Positano, Italy",
       "tripBuddy": "Sofia Rodriguez",
-      "tripImage": "https://picsum.photos/seed/hG3fD4sA9qP7wZ6x/1200/900"
+      "tripImage": "https://picsum.photos/seed/hG3fD4sA9qP7wZ6x/1200/900",
+      "tripStartDate": "2025-06-22",
+      "tripEndDate": "2025-06-28",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "cV5bN8mK2lJ4hG9f",
       "user_id": "13",
-      "tripName": "Tuscan Wine Tour",
-      "tripLength": "4",
+      "tripTitle": "Tuscan Wine Tour",
       "tripLocation": "Florence, Italy",
-      "tripImage": "https://picsum.photos/seed/cV5bN8mK2lJ4hG9f/1200/900"
+      "tripImage": "https://picsum.photos/seed/cV5bN8mK2lJ4hG9f/1200/900",
+      "tripStartDate": "2024-09-05",
+      "tripEndDate": "2024-09-09",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "dQ1wA3sZ7xEcR6vT",
       "user_id": "13",
-      "tripName": "Greek Isles",
-      "tripLength": "10",
+      "tripTitle": "Greek Isles",
       "tripLocation": "Santorini, Greece",
       "tripBuddy": "Chloe Dubois",
-      "tripImage": "https://picsum.photos/seed/dQ1wA3sZ7xEcR6vT/1200/900"
+      "tripImage": "https://picsum.photos/seed/dQ1wA3sZ7xEcR6vT/1200/900",
+      "tripStartDate": "2025-07-14",
+      "tripEndDate": "2025-07-24",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "bY9nU1iM8oP4lK6j",
       "user_id": "13",
-      "tripName": "Barcelona Arts",
-      "tripLength": "5",
+      "tripTitle": "Barcelona Arts",
       "tripLocation": "Barcelona, Spain",
-      "tripImage": "https://picsum.photos/seed/bY9nU1iM8oP4lK6j/1200/900"
+      "tripImage": "https://picsum.photos/seed/bY9nU1iM8oP4lK6j/1200/900",
+      "tripStartDate": "2025-04-10",
+      "tripEndDate": "2025-04-15",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG2fD5sA4qP8wZ3x",
       "user_id": "13",
-      "tripName": "Prague History",
-      "tripLength": "3",
+      "tripTitle": "Prague History",
       "tripLocation": "Prague, Czech Republic",
-      "tripImage": "https://picsum.photos/seed/hG2fD5sA4qP8wZ3x/1200/900"
+      "tripImage": "https://picsum.photos/seed/hG2fD5sA4qP8wZ3x/1200/900",
+      "tripStartDate": "2024-10-18",
+      "tripEndDate": "2024-10-21",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "eR1tY6uI8oP3lK4j",
       "user_id": "13",
-      "tripName": "Vienna Music",
-      "tripLength": "4",
+      "tripTitle": "Vienna Music",
       "tripLocation": "Vienna, Austria",
-      "tripImage": "https://picsum.photos/seed/eR1tY6uI8oP3lK4j/1200/900"
+      "tripImage": "https://picsum.photos/seed/eR1tY6uI8oP3lK4j/1200/900",
+      "tripStartDate": "2025-12-05",
+      "tripEndDate": "2025-12-09",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG7fD2sA5qP9wZ1x",
       "user_id": "13",
-      "tripName": "Budapest Baths",
-      "tripLength": "3",
+      "tripTitle": "Budapest Baths",
       "tripLocation": "Budapest, Hungary",
-      "tripImage": "httpsm://picsum.photos/seed/hG7fD2sA5qP9wZ1x/1200/900"
+      "tripImage": "httpsm://picsum.photos/seed/hG7fD2sA5qP9wZ1x/1200/900",
+      "tripStartDate": "2025-08-01",
+      "tripEndDate": "2025-08-04",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "cV8bN9mK1lJ4hG5f",
       "user_id": "15",
-      "tripName": "Greek Isles",
-      "tripLength": "10",
+      "tripTitle": "Greek Isles",
       "tripLocation": "Santorini, Greece",
       "tripBuddy": "Marco Rossi",
-      "tripImage": "https://picsum.photos/seed/cV8bN9mK1lJ4hG5f/1200/900"
+      "tripImage": "httpsfs://picsum.photos/seed/cV8bN9mK1lJ4hG5f/1200/900",
+      "tripStartDate": "2025-07-14",
+      "tripEndDate": "2025-07-24",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "dQ2wA3sZ6xEcR8vT",
       "user_id": "15",
-      "tripName": "Moroccan Adventure",
-      "tripLength": "8",
+      "tripTitle": "Moroccan Adventure",
       "tripLocation": "Marrakech, Morocco",
-      "tripImage": "https://picsum.photos/seed/dQ2wA3sZ6xEcR8vT/1200/900"
+      "tripImage": "https://picsum.photos/seed/dQ2wA3sZ6xEcR8vT/1200/900",
+      "tripStartDate": "2024-11-15",
+      "tripEndDate": "2024-11-23",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "bY7nU1iM9oP2lK5j",
       "user_id": "15",
-      "tripName": "Egyptian Pyramids",
-      "tripLength": "7",
+      "tripTitle": "Egyptian Pyramids",
       "tripLocation": "Cairo, Egypt",
-      "tripImage": "https://picsum.photos/seed/bY7nU1iM9oP2lK5j/1200/900"
+      "tripImage": "https://picsum.photos/seed/bY7nU1iM9oP2lK5j/1200/900",
+      "tripStartDate": "2025-02-10",
+      "tripEndDate": "2025-02-17",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG4fD5sA6qP7wZ1x",
       "user_id": "15",
-      "tripName": "South of France",
-      "tripLength": "5",
+      "tripTitle": "South of France",
       "tripLocation": "Nice, France",
-      "tripImage": "https://picsum.photos/seed/hG4fD5sA6qP7wZ1x/1200/900"
+      "tripImage": "https://picsum.photos/seed/hG4fD5sA6qP7wZ1x/1200/900",
+      "tripStartDate": "2025-06-05",
+      "tripEndDate": "2025-06-10",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "eR8tY6uI9oP1lK2j",
       "user_id": "15",
-      "tripName": "Swiss Alps",
-      "tripLength": "6",
+      "tripTitle": "Swiss Alps",
       "tripLocation": "Interlaken, Switzerland",
-      "tripImage": "https://picsum.photos/seed/eR8tY6uI9oP1lK2j/1200/900"
+      "tripImage": "https://picsum.photos/seed/eR8tY6uI9oP1lK2j/1200/900",
+      "tripStartDate": "2026-01-20",
+      "tripEndDate": "2026-01-26",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG3fD4sA5qP6wZ7x",
       "user_id": "15",
-      "tripName": "Stockholm Design",
-      "tripLength": "4",
+      "tripTitle": "Stockholm Design",
       "tripLocation": "Stockholm, Sweden",
-      "tripImage": "https://picsum.photos/seed/hG3fD4sA5qP6wZ7x/1200/900"
+      "tripImage": "https://picsum.photos/seed/hG3fD4sA5qP6wZ7x/1200/900",
+      "tripStartDate": "2024-09-20",
+      "tripEndDate": "2024-09-24",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "cV2bN9mK1lJ8hG4f",
       "user_id": "15",
-      "tripName": "Andalusia Roadtrip",
-      "tripLength": "9",
+      "tripTitle": "Andalusia Roadtrip",
       "tripLocation": "Seville, Spain",
-      "tripImage": "httpsm://picsum.photos/seed/cV2bN9mK1lJ8hG4f/1200/900"
+      "tripImage": "httpsm://picsum.photos/seed/cV2bN9mK1lJ8hG4f/1200/900",
+      "tripStartDate": "2025-05-18",
+      "tripEndDate": "2025-05-27",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "dQ5wA3sZ6xEcR7vT",
       "user_id": "15",
-      "tripName": "Istanbul Wonders",
-      "tripLength": "5",
+      "tripTitle": "Istanbul Wonders",
       "tripLocation": "Istanbul, Turkey",
-      "tripImage": "https://picsum.photos/seed/dQ5wA3sZ6xEcR7vT/1200/900"
+      "tripImage": "https://picsum.photos/seed/dQ5wA3sZ6xEcR7vT/1200/900",
+      "tripStartDate": "2024-10-28",
+      "tripEndDate": "2024-11-02",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "bY8nU1iM9oP2lK3j",
       "user_id": "16",
-      "tripName": "Goa Retreat",
-      "tripLength": "5",
+      "tripTitle": "Goa Retreat",
       "tripLocation": "Goa, India",
       "tripBuddy": "Priya Sharma",
-      "tripImage": "https://picsum.photos/seed/bY8nU1iM9oP2lK3j/1200/900"
+      "tripImage": "https://picsum.photos/seed/bY8nU1iM9oP2lK3j/1200/900",
+      "tripStartDate": "2025-01-05",
+      "tripEndDate": "2025-01-10",
+      "tripUpdated": "2025-10-27"
     },
     {
       "id": "hG4fD5sA6qP7wZ1x",
       "user_id": "16",
-      "tripName": "Himalayan Trek",
-      "tripLength": "10",
+      "tripTitle": "Himalayan Trek",
       "tripLocation": "Manali, India",
-      "tripImage": "https://picsum.photos/seed/hG4fD5sA6qP7wZ1x/1200/900"
+      "tripImage": "https://picsum.photos/seed/hG4fD5sA6qP7wZ1x/1200/900",
+      "tripStartDate": "2025-04-03",
+      "tripEndDate": "2025-04-13",
+      "tripUpdated": "2025-10-27"
     }
   ]
 }

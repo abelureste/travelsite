@@ -8,6 +8,17 @@ const props = defineProps({
   user: Object,
 })
 
+const longDate = (inputDate) => {
+  const date = new Date(inputDate)
+
+  const options = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }
+  
+  return Intl.DateTimeFormat('en-US', options).format(date)
+}
 </script>
 
 <template>
@@ -19,9 +30,9 @@ const props = defineProps({
       onerror="this.src='https://placehold.co/800x400/cccccc/333333?text=Image+Error'"
     />
     <div class="p-6">
-      <h1 class="text-3xl font-bold text-gray-900">{{ props.trip.tripName }}</h1>
+      <h1 class="text-3xl font-bold text-gray-900">{{ props.trip.tripTitle }}</h1>
       <p class="text-sm text-gray-500 mt-1">{{ props.trip.tripLocation }}</p>
-      <p class="text-sm text-gray-500 mt-1">July 2nd - July 10th, 2025</p>
+      <p class="text-sm text-gray-500 mt-1">{{ longDate(props.trip.tripStartDate) }} - {{ longDate(props.trip.tripEndDate) }}</p>
 
       <div class="flex justify-between items-center mt-5">
         <div class="flex items-center">

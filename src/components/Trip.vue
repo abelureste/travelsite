@@ -6,6 +6,15 @@ import { RouterLink } from 'vue-router'
 const props = defineProps({
   trip: Object,
 })
+
+const tripLength = () => {
+  const startDate = new Date(props.trip.tripStartDate)
+  const endDate = new Date(props.trip.tripEndDate)
+
+  let timeDifference = endDate - startDate
+  timeDifference = timeDifference / (1000 * 3600 * 24)
+  return timeDifference
+}
 </script>
 
 <template>
@@ -21,11 +30,11 @@ const props = defineProps({
       onerror="this.src='https://placehold.co/400x300/cccccc/333333?text=Image+Error'"
     />
     <div class="p-4">
-      <h4 class="text-md font-semibold text-gray-900">{{ props.trip.tripName }}</h4>
-      <p v-if="props.trip.tripLength > 0" class="text-sm text-gray-500">
-        {{ props.trip.tripLength }} - Day Trip
+      <h4 class="text-md font-semibold text-gray-900">{{ props.trip.tripTitle }}</h4>
+      <p v-if="props.trip.tripStartDate != props.trip.tripEndDate" class="text-sm text-gray-500">
+        {{ tripLength() }} Day Trip
       </p>
-      <p v-else class="text-sm text-gray-500">Day Trip</p>
+      <p v-else class="text-sm text-gray-500">{{ props.trip.tripStartDate }}</p>
       <p class="text-sm text-gray-500">{{ props.trip.tripLocation }}</p>
       <div v-if="props.trip.tripBuddy" class="flex items-center mt-3">
         <img
