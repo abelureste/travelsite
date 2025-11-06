@@ -2,10 +2,10 @@
 <script setup></script>
 
 <template>
-  <nav class="w-full h-24 b border-b border-gray-100 my-auto flex items-center">
+  <nav class="max-w-7xl mx-auto md:px-2 h-16 b border-b border-gray-100 my-auto flex items-center">
     <a class="flex items-center shrink-0" href="/dashboard">
-      <img class="ml-4 h-16" src="/src/assets/pin-logo.png" />
-      <span class="text-3xl font-bold">Travel Mapper</span>
+      <img class="ml-4 h-12" src="/src/assets/pin-logo.png" />
+      <span class="text-2xl font-bold">Travel Mapper</span>
     </a>
   </nav>
 </template>
